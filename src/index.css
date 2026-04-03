@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+/* Añadimos configuración base de tailwind para que los estilos funcionen */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
